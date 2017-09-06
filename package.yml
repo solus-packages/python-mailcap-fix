@@ -1,0 +1,19 @@
+name       : python-mailcap-fix
+version    : 1.0.1
+release    : 1
+source     :
+    - https://pypi.python.org/packages/c2/e5/55485018f29af549d94e7a52ce9271ec88ff5f5f2f8246bcc7ce13e3897f/mailcap-fix-1.0.1.tar.gz : 113c0b36091ac0b8181c33f2cd4905280e1bb316383d3c3fcae98c6df094910a
+license    : Unlicense
+component  : programming.python
+summary    : A patched mailcap module that conforms to RFC 1524
+description: |
+    This package patches the python standard library’s mailcap module in order to correctly handle windcard entries.
+builddeps  :
+    - pkgconfig(python3)
+    - python-setuptools
+setup      : |
+    %python_setup
+    %python3_setup
+install    : |
+    %python_install
+    %python3_install
