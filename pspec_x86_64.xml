@@ -2,20 +2,20 @@
     <Source>
         <Name>python-mailcap-fix</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>Unlicense</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">A patched mailcap module that conforms to RFC 1524</Summary>
-        <Description xml:lang="en">This package patches the python standard library’s mailcap module in order to correctly handle windcard entries.
+        <Description xml:lang="en">This package patches the python standard library&apos;s mailcap module in order to correctly handle windcard entries.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-mailcap-fix</Name>
         <Summary xml:lang="en">A patched mailcap module that conforms to RFC 1524</Summary>
-        <Description xml:lang="en">This package patches the python standard library’s mailcap module in order to correctly handle windcard entries.
+        <Description xml:lang="en">This package patches the python standard library&apos;s mailcap module in order to correctly handle windcard entries.
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
@@ -29,25 +29,25 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/mailcap_fix/mailcap_fix.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/mailcap_fix/mailcap_original.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/mailcap_fix/mailcap_original.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix-1.0.1-py3.5.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix-1.0.1-py3.5.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix-1.0.1-py3.5.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix-1.0.1-py3.5.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix/__pycache__/__init__.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix/__pycache__/mailcap_fix.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix/__pycache__/mailcap_original.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix/mailcap_fix.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/mailcap_fix/mailcap_original.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix-1.0.1-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix-1.0.1-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix-1.0.1-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix-1.0.1-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix/__pycache__/mailcap_fix.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix/__pycache__/mailcap_original.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix/mailcap_fix.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/mailcap_fix/mailcap_original.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-09-06</Date>
+        <Update release="2">
+            <Date>2018-01-30</Date>
             <Version>1.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
